@@ -435,6 +435,10 @@ class _CometChatMessagesState extends State<CometChatMessages> {
                                     }
                                   },
                                   child: getMessageList(value, context))),
+                          Container(
+                            height: 100,
+                            color: Colors.red,
+                          ),
 
                           //-----message composer-----
                           if (widget.hideMessageComposer == false)
